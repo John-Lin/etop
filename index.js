@@ -36,7 +36,7 @@ function initialCPUSerie(num) {
 $(function() {
 
   $('.github-corner').on('click', function() {
-    ipc.send('goto-github', 'https://github.com/John-Lin');
+    ipc.send('goto-github', 'https://github.com/John-Lin/etop');
   });
 
   // Load the fonts
