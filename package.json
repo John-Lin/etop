@@ -11,8 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "cpu-stats": "^1.0.0",
-    "electron-prebuilt": "^0.35.2",
     "jquery": "^2.1.4",
     "opener": "^1.4.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.2"
   }
 }

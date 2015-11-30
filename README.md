@@ -1,7 +1,9 @@
 # etop
+A CPU monitor like top program on Linux based on Electron.
 
+# Screenshots
 
-# Screenshot
+![](/screenshots/etop.png)
 
 ![](/screenshots/etop.gif)
 
