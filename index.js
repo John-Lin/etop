@@ -71,14 +71,14 @@ $(function() {
     cpuStats(1000, function(error, result) {
       var coresNum = result.length;
       var timeStamp = (new Date()).getTime();
-      var option = false;
+      var redraw = false;
 
       for (var i = 0; i < CPU_NUM; i++) {
         if (i === CPU_NUM - 1) {
-          var option = true;
+          var redraw = true;
         }
 
-        chart.series[i].addPoint([timeStamp, result[i].cpu], option, true);
+        chart.series[i].addPoint([timeStamp, result[i].cpu], redraw, true);
       }
 
     });
