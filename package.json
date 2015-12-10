@@ -11,10 +11,11 @@
   "license": "MIT",
   "dependencies": {
     "cpu-stats": "^1.0.0",
+    "highcharts": "^4.1.10",
     "jquery": "^2.1.4",
     "opener": "^1.4.1"
   },
   "devDependencies": {
-    "electron-prebuilt": "^0.35.2"
+    "electron-prebuilt": "^0.35.4"
   }
 }
