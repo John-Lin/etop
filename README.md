@@ -1,5 +1,7 @@
 # etop
-A CPU monitor like top program on Linux based on Electron.
+A CPU activity monitor likes top program but gorgeous.
+
+[http://cpus.top](http://cpus.top)
 
 # Screenshots
 
